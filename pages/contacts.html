@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h3>Contact Me</h3>
+    <ul>
+      <li>Whatsapp: <a href="wa.me/62895365037183">+62 895 3650 37183</a></li>
+      <li>
+        Email:
+        <a href="mailto:ahmad.mumin.21@student.it.ittelkom-sby.ac.id"
+          >ahmad.mumin.21@student.it.ittelkom-sby.ac.id</a
+        >
+      </li>
+    </ul>
+    <hr />
+    <h3>Or Submit Your Message Here</h3>
+    <form
+      id="myform"
+      enctype="text/plain"
+      action="mailto:ahmad.mumin.21@student.it.ittelkom-sby.ac.id"
+      method="post"
+    >
+      <table>
+        <tr>
+          <td><label for="get-name">Your Name </label></td>
+          <td>
+            <input
+              type="text"
+              id="get-name"
+              placeholder="ex: Ahmad Faisal"
+              name="yourName"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="get-email">Your Email </label></td>
+          <td>
+            <input
+              type="email"
+              name="yourEmail"
+              id="get-email"
+              placeholder="ex: example@gmail.com"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="get-message">Your Message </label></td>
+          <td>
+            <textarea
+              name="yourMessage"
+              id="get-message"
+              cols="28"
+              rows="10"
+              placeholder="Enter your message here"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="submit" form="myform" value="Submit Form" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
